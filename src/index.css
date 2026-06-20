@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', sans-serif;
+  
+  --color-cairn-forest: #2A6238;
+  --color-cairn-moss: #5B9148;
+  --color-cairn-pine: #1B4022;
+  --color-cairn-trail: #D9763B;
+  --color-cairn-clay: #C24E33;
+  --color-cairn-amber: #D99A2B;
+  --color-cairn-sky: #4485C2;
+  --color-cairn-sand: #ECE4D6;
+}
+
+@layer base {
+  body {
+    background-color: #F9FAFB;
+    color: var(--color-zinc-950);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
