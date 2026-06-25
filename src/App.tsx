@@ -1,5 +1,6 @@
 import { LiquidGlassNav } from './components/LiquidGlassNav';
-import { Hero } from './components/Hero';
+import { ScrollSequenceHero } from './components/ScrollSequenceHero';
+import { StickyCompassFeatures } from './components/StickyCompassFeatures';
 import { BentoFeatures } from './components/BentoFeatures';
 import { SystemIntegration } from './components/SystemIntegration';
 import { SocialCommunity } from './components/SocialCommunity';
@@ -11,7 +12,8 @@ function App() {
     <div className="min-h-screen w-full relative selection:bg-cairn-forest/20 selection:text-cairn-forest">
       <LiquidGlassNav />
       <main>
-        <Hero />
+        <ScrollSequenceHero />
+        <StickyCompassFeatures />
         <BentoFeatures />
         <SystemIntegration />
         <SocialCommunity />
